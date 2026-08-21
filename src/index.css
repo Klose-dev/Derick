@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+@plugin 'lightswind/plugin';
+@import "./lightswind.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-laurel: #3F5B34;
+  --color-laurel-light: #4a6b3f;
+  --color-laurel-dark: #2f4527;
+  --color-cream: #FAF9F5;
+  --color-cream-dark: #F0EFEA;
+  --color-gold: #C9A24B;
+  --color-gold-light: #d4b368;
+  --color-charcoal: #1F241C;
+  --color-charcoal-light: #2a2f27;
+  --font-heading: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-body: "Inter", "Manrope", system-ui, sans-serif;
+}
+
+.dark {
+  --color-cream: #0f1410;
+  --color-cream-dark: #0a0d0a;
+  --color-charcoal: #FAF9F5;
+  --color-charcoal-light: #d4d4d4;
+  --color-laurel: #4a6b3f;
+  --color-laurel-light: #5a7d4f;
+  --color-laurel-dark: #2f4527;
+  --color-gold: #d4b368;
+  --color-gold-light: #e0c880;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: var(--font-body);
+  color: var(--color-charcoal);
+  background-color: var(--color-cream);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
