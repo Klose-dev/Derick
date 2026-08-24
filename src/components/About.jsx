@@ -107,7 +107,7 @@ export default function About() {
                           &ldquo;Do your best to present yourself to God as one approved, a worker who does not need to be ashamed and who correctly handles the word of truth.&rdquo;
                         </p>
                         <p className="text-gold text-xs tracking-[0.2em] uppercase mt-2 font-medium">
-                          — Psalm 45:1 (NIV)
+                          — 2 Timothy 2:15 (KJV)
                         </p>
                       </div>
                     </div>
